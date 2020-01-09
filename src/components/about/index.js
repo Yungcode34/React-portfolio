@@ -1,9 +1,10 @@
 import React from 'react';
+import './index.scss'
 function About() {
-  const greeting = 'Hello Function Component!';
+  
   return (
-      <div>
-          
+      <div className="container">
+          yo
       </div>
   )
 }

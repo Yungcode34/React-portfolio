@@ -9,10 +9,10 @@ function Home() {
   return (
     <div className="Home">
       <Hero/>
-      <Footer/>
       <About/>
       <Contact/>
       <Work/>
+      <Footer/>
     </div>
   );
 }

@@ -8,3 +8,137 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#name{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Acme', sans-serif;
+    opacity: 0.7;
+    font-size: 50px;
+    float: left;
+    padding: 8px 15px;
+}
+#nav {
+	width: 100%;
+	float: right;
+	margin: 0 0 3em 0;
+    padding-top: 15px;
+    padding-right: 25px;
+    list-style: none;
+    font-size: 50px;
+}
+
+
+#nav li a {
+    float: right;
+    
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-weight: bold;
+        color: rgb(255, 255, 255);
+        font-family: 'Acme', sans-serif;
+        opacity: 0.7;
+		 }
+
+         
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.two {
+    -webkit-animation-delay: .5;
+    -moz-animation-delay: .5;
+    animation-delay: .5;
+    }
+
+.three {
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+        -webkit-animation-delay:2;
+        -moz-animation-delay:2;
+        animation-delay:2;
+        }
+
+
+    @-webkit-keyframes fadeInDown {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+
+
+      .fadeInDown {
+        -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+      }
+    
+      @keyframes fadeInLeft {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+      
+      .fadeInLeft {
+        -webkit-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+      }
+
+      .rocket{
+          display: inline-block;
+          
+          height: 750px;
+          width: 750px;
+          
+      }
+      
+      .outside-rocket{
+        text-align: center;
+    }
+      
+
+
+#Shortmsg{
+    position: absolute;
+    top: 100px;
+    height: 700px;
+    width: 25%;
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+vertical-align: middle;
+line-height: 700px; 
+font-size: 100px;
+}
